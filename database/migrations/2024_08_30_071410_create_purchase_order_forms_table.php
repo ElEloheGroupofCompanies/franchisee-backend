@@ -19,13 +19,13 @@ return new class extends Migration
             $table->string('business_name');
             $table->string('outlet');
             $table->string('address');
-            $table->enum('fc_without_breading', ['class_a_large', 'class_b_medium', 'class_c_small'])->default('class_c_small')->nullable();
+            $table->enum('fc_without_breading', ['Class A (Large)', 'Class B (Medium)', 'Class C (Small)'])->default('Class C (Small)')->nullable();
             $table->string('fc_quantity')->nullable();
-            $table->enum('with_spicy_flavor', ['class_a_large', 'class_b_medium', 'class_c_small'])->default('class_c_small')->nullable();
+            $table->enum('with_spicy_flavor', ['Class A (Large)', 'Class B (Medium)', 'Class C (Small)'])->default('Class C (Small)')->nullable();
             $table->string('with_spicy_flavor_quantity')->nullable();
-            $table->enum('hot_and_spicy', ['class_a_large', 'class_b_medium', 'class_c_small'])->default('class_c_small')->nullable();
+            $table->enum('hot_and_spicy', ['Class A (Large)', 'Class B (Medium)', 'Class C (Small)'])->default('Class C (Small)')->nullable();
             $table->string('hot_and_spicy_quantity')->nullable();
-            $table->enum('malunggay', ['class_a_large', 'class_b_medium', 'class_c_small'])->default('class_c_small')->nullable();
+            $table->enum('malunggay', ['Class A (Large)', 'Class B (Medium)', 'Class C (Small)'])->default('Class C (Small)')->nullable();
             $table->string('malunggay_quantity')->nullable();
             $table->string("image")->nullable();
             $table->unsignedBigInteger("user_id");
