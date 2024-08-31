@@ -10,14 +10,14 @@ ENV RUN_SCRIPTS 1
 ENV REAL_IP_HEADER 1
 
 # Laravel config
-ENV APP_ENV production
+ENV APP_ENV franchisee
 ENV APP_DEBUG false
 ENV DB_CONNECTION pgsql
-ENV DB_HOST dpg-cqgrsuks1f4s73bepqng-a.singapore-postgres.render.com
+ENV DB_HOST dpg-cr9ab9rv2p9s73b4e48g-a.singapore-postgres.render.com
 ENV DB_PORT 5432
-ENV DB_DATABASE eleloheproductiondb
-ENV DB_USERNAME eleloheproductiondb_user
-ENV DB_PASSWORD uyMUL1VWdPMCQi7V3Key3VQPke1oBSpx
+ENV DB_DATABASE franchisee
+ENV DB_USERNAME franchisee_user
+ENV DB_PASSWORD MhjzFKYh34mQcrXxEr79lj5wQPwt19wR
 
 # Allow composer to run as root
 ENV COMPOSER_ALLOW_SUPERUSER 1
